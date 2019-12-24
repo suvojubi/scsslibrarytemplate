@@ -1,0 +1,140 @@
+/*--------------Body---------*/
+$font-choose: 'Roboto', sans-serif;
+/*--------------Body---------*/
+
+
+/*----------------------------------*BotIcon------------------------------*/
+$boticon-width: 70px;
+$boticon-right: 30px;
+$boticon-bottom: 12px;
+$boticon-height: 70px;
+$boticon-background: #006aff;
+$boticon-borderradius: 50%;
+// $boticon-backgroundimage: url("file:///C:/Users/ADMIN/Desktop/suvotemporary/botbuildlibrary/final%20design/dist/images/robot02_90810.svg");
+$boticon-backgroundimage: url("../../dist/images/robot02_90810.svg");
+/*----------------------------------*BotIcon------------------------------*/
+
+
+/*-----------------------------------Head-------------------------------*/
+
+/*--------------Bot-----------*/
+$bot-width: 390px;
+$botborder-radius: 10px;
+$botbox-shadow: 2px 5px 41px 0 #5f5f5fc9;
+/*--------------Bot-----------*/
+
+/*-------------Bot-header----------*/
+$header-height: 72px;
+$header-width: 100%;
+$background-color: linear-gradient(to left, #05060b, #333f5f);
+$headborder-radius: 10px  10px  0 0;
+/*-------------Bot-header----------*/
+
+/*-------------Headerlogo------------*/
+$headlogo-width: 40px;
+$headlogo-height: 40px;
+// $background-image: url(https://cdn3.iconfinder.com/data/icons/chat-bot-emoji-blue-filled-color/300/141413356Untitled-3-512.png);
+/*-------------Headerlogo------------*/
+
+/*--------------hidebot-----------------*/
+$hidebot-width: 15px;
+$hidebot-height: 15px;
+/*--------------hidebot-----------------*/
+
+/*-------------heading-------------------*/
+$heading-width: 76%;
+$font-color: #fff;
+$font-size: 19px;
+/*-------------heading-------------------*/
+
+/*-------------subheading-----------------*/
+$font-subcolor: #fff;
+$font-subsize: 13px;
+/*-------------subheading-----------------*/
+
+/*-----------------------------------Head-------------------------------*/
+
+
+/*-----------------------------Chatbody---------------------------------*/
+
+
+/*------------Bot Size----------*/
+$chatbot-width: 100%;
+$chatbot-height: 60vh;
+/*------------Bot Size----------*/
+
+/*------------Chatbody background color------------*/
+$my-color: #f3f7f8;
+// $chatbackground-image: url("file:///C:/Users/ADMIN/Desktop/suvotemporary/botbuildlibrary/final%20design/dist/images/mfchatBg.png");
+$chatbackground-image: url("../../dist/images/mfchatBg.png");
+$leftchatback-color: #f4f7f8;
+// $rightchatback-color: ;
+/*------------Chatbody background color------------*/
+
+/*--------------chat----------------*/
+$chat-width: 95%;
+/*--------------chat----------------*/
+
+/*-----------------font------------------*/
+$leftfont-color: #151515;
+$rightfont-color: #151515;
+$font-height: 15px;
+/*----------------font-------------------*/
+
+/*----------------Icon-------------*/
+// $left-icon: url("file:///C:/Users/ADMIN/Desktop/suvotemporary/botbuildlibrary/final%20design/dist/images/botAvatar.png");
+$left-icon: url("../../dist/images/botAvatar.png");
+// $right-icon: url("file:///C:/Users/ADMIN/Desktop/suvotemporary/botbuildlibrary/final%20design/dist/images/botAvatar.png");
+$right-icon: url("../../dist/images/botAvatar.png");
+
+/*----------------Icon-------------*/
+
+/*--------------Userimage------------*/
+$div-img-width: 30px;
+$div-img-height: 30px;
+$img-width: 100%;
+/*--------------Userimage------------*/
+
+/*------------Shadow-----------------*/
+$shadow:  0px 1px 2px 0px #d7dcdb;
+
+/*------------Shadow-----------------*/
+
+/*-------------BorderRadius-------------*/
+$leftchatborder-radius: 8px;
+$rightchatborder-radius: 8px;
+$rightchatborder: 1px solid #dbdbdb;
+/*-------------BorderRadius-------------*/
+
+/*-----------------------------Chatbody---------------------------------*/
+
+/*-----------------------------Footer-----------------------------------*/
+/*-----------footer---------------*/
+$footer-width: 100%;
+$footer-height: 66px;
+$footer-boxshadow: 6px 18px 40px 16px #73b8c373;
+$footer-borderradius: 0 0 10px 10px;
+/*-----------footer---------------*/
+
+/*-----------hammenuimg---------------*/
+$hammenu-width: 30px;
+$hammenu-height: 30px;
+/*-----------hammenu---------------*/
+
+/*-------------Inputbox-------------*/
+$input-width: 70%;
+/*-------------Inputbox-------------*/
+
+/*-----------------Textinput--------------*/
+$text-width: 100%;
+$text-height: 26px;
+$textborder-radius: 10px;
+/*-----------------Textinput--------------*/
+
+/*-----------------SendButton---------------*/
+$button-width: 25px;
+$button-height: 25px;
+/*-----------------SendButton---------------*/
+
+
+/*-----------------------------Footer-----------------------------------*/

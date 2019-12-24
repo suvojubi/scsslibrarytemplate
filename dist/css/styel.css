@@ -1,0 +1,292 @@
+/*--------------Body---------*/
+/*--------------Body---------*/
+/*----------------------------------*BotIcon------------------------------*/
+/*----------------------------------*BotIcon------------------------------*/
+/*-----------------------------------Head-------------------------------*/
+/*--------------Bot-----------*/
+/*--------------Bot-----------*/
+/*-------------Bot-header----------*/
+/*-------------Bot-header----------*/
+/*-------------Headerlogo------------*/
+/*-------------Headerlogo------------*/
+/*--------------hidebot-----------------*/
+/*--------------hidebot-----------------*/
+/*-------------heading-------------------*/
+/*-------------heading-------------------*/
+/*-------------subheading-----------------*/
+/*-------------subheading-----------------*/
+/*-----------------------------------Head-------------------------------*/
+/*-----------------------------Chatbody---------------------------------*/
+/*------------Bot Size----------*/
+/*------------Bot Size----------*/
+/*------------Chatbody background color------------*/
+/*------------Chatbody background color------------*/
+/*--------------chat----------------*/
+/*--------------chat----------------*/
+/*-----------------font------------------*/
+/*----------------font-------------------*/
+/*----------------Icon-------------*/
+/*----------------Icon-------------*/
+/*--------------Userimage------------*/
+/*--------------Userimage------------*/
+/*------------Shadow-----------------*/
+/*------------Shadow-----------------*/
+/*-------------BorderRadius-------------*/
+/*-------------BorderRadius-------------*/
+/*-----------------------------Chatbody---------------------------------*/
+/*-----------------------------Footer-----------------------------------*/
+/*-----------footer---------------*/
+/*-----------footer---------------*/
+/*-----------hammenuimg---------------*/
+/*-----------hammenu---------------*/
+/*-------------Inputbox-------------*/
+/*-------------Inputbox-------------*/
+/*-----------------Textinput--------------*/
+/*-----------------Textinput--------------*/
+/*-----------------SendButton---------------*/
+/*-----------------SendButton---------------*/
+/*-----------------------------Footer-----------------------------------*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/*--------------------BotIcon------------------*/
+.bot-icon {
+  position: fixed;
+  cursor: pointer;
+  width: 70px;
+  right: 30px;
+  bottom: 12px;
+  height: 70px;
+  background: #006aff;
+  border-radius: 50%;
+  background-image: url("../../dist/images/robot02_90810.svg");
+}
+
+/*--------------------BotIcon------------------*/
+.main {
+  display: none;
+  position: fixed;
+  width: 390px;
+  right: 30px;
+  top: 60px;
+  overflow: hidden;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 5px 41px 0 #5f5f5fc9;
+          box-shadow: 2px 5px 41px 0 #5f5f5fc9;
+}
+
+/*--------------------Header----------------*/
+.main .header {
+  width: 100%;
+  height: 72px;
+  background: -webkit-gradient(linear, right top, left top, from(#05060b), to(#333f5f));
+  background: linear-gradient(to left, #05060b, #333f5f);
+  border-radius: 10px 10px 0 0;
+}
+
+.header .hidebot {
+  width: 15px;
+  height: 15px;
+  float: right;
+  margin: 25px 15px 0 0;
+  cursor: pointer;
+}
+
+.header .hidebot .img-responsive {
+  width: 100%;
+  margin: 0 0 2px 0;
+}
+
+.header .headlogo {
+  width: 40px;
+  height: 40px;
+  background-size: 100%;
+  float: left;
+  background-repeat: no-repeat;
+  margin: 10px 5px 0 18px;
+  display: none;
+}
+
+.header .heading {
+  width: 76%;
+  float: left;
+  margin: 10px 0 0 20px;
+}
+
+.header .heading h2 {
+  color: #fff;
+  font-size: 19px;
+  margin: 8px 0 0 10px;
+}
+
+.header .heading p {
+  color: #fff;
+  font-size: 13px;
+  margin: 3px 0px 0 10px;
+}
+
+/*--------------------Header----------------*/
+/*--------------------ChatBody----------------*/
+.main .chatbody {
+  float: right;
+  width: 100%;
+  height: 60vh;
+  padding: 0px;
+  background-image: url("../../dist/images/mfchatBg.png");
+  opacity: 0.7;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.chatbody .leftchat,
+.rightchat {
+  float: left;
+  width: 95%;
+  margin: 5px 0 0 0;
+}
+
+.chatbody .rightchat {
+  float: right;
+}
+
+.chatbody .leftchat .leftUserimg {
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin: 10px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 1px 2px 0px #d7dcdb;
+          box-shadow: 0px 1px 2px 0px #d7dcdb;
+  padding: 5px;
+}
+
+.chatbody .leftchat .leftUserimg .img-responsive {
+  width: 100%;
+  background-image: url("../../dist/images/botAvatar.png");
+  background-size: 90%;
+  background-repeat: no-repeat;
+}
+
+.chatbody .leftchat .leftInput,
+.leftInput1,
+.rightInput,
+.rightInput1 {
+  float: left;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 1px 2px 0px #d7dcdb;
+          box-shadow: 0px 1px 2px 0px #d7dcdb;
+  padding: 1px 18px;
+  margin: 10px 0 0px 0;
+  background: #f4f7f8;
+}
+
+.chatbody .rightchat .rightInput,
+.rightInput1 {
+  background: none;
+  border: 1px solid #dbdbdb;
+  padding: 0px 18px;
+}
+
+.chatbody .rightInput,
+.rightInput1 {
+  float: right;
+  border-radius: 8px;
+}
+
+.chatbody .leftchat .leftInput,
+.leftInput1 p {
+  color: #151515;
+  font-size: 15px;
+}
+
+.chatbody .rightInput,
+.rightInput1 p {
+  color: #151515;
+  font-size: 15px;
+}
+
+.chatbody .leftchat .leftInput1 {
+  margin: 0 0 0 60px;
+}
+
+.chatbody .rightchat .rightUserimg {
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin: 10px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 1px 2px 0px #d7dcdb;
+          box-shadow: 0px 1px 2px 0px #d7dcdb;
+  padding: 5px;
+  background-size: 100%;
+  background-image: url("../../dist/images/botAvatar.png");
+  background-size: 90%;
+  background-repeat: no-repeat;
+}
+
+.chatbody .rightchat .rightUserimg .img-responsive {
+  width: 100%;
+}
+
+.chatbody .rightchat .rightInput1 {
+  margin: 0 60px 0 0px;
+}
+
+/*--------------------ChatBody----------------*/
+/*--------------------Footer-----------------*/
+.main .footer {
+  border-radius: 0 0 10px 10px;
+  float: left;
+  width: 100%;
+  height: 66px;
+  -webkit-box-shadow: 6px 18px 40px 16px #73b8c373;
+          box-shadow: 6px 18px 40px 16px #73b8c373;
+}
+
+.footer .ham-menu-img {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin: 15px 10px 0 10px;
+  cursor: pointer;
+}
+
+.footer .ham-menu-img .img-responsive {
+  width: 100%;
+}
+
+.footer .input-box {
+  float: left;
+  width: 70%;
+  margin: 10px 16px 0 0;
+}
+
+.footer .input-box .text-input {
+  width: 100%;
+  height: 26px;
+  border-radius: 10px;
+  resize: none;
+  outline: none;
+  padding: 9px 7px;
+  border: none;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.footer .send-button {
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin: 20px 0 0 15px;
+  cursor: pointer;
+}
+
+.footer .send-button .img-responsive {
+  width: 100%;
+}
+
+/*--------------------Footer-----------------*/
+/*# sourceMappingURL=styel.css.map */
