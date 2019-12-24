@@ -161,13 +161,13 @@ body {
   -webkit-box-shadow: 0px 1px 2px 0px #d7dcdb;
           box-shadow: 0px 1px 2px 0px #d7dcdb;
   padding: 5px;
+  background-image: url("../../dist/images/botAvatar.png");
+  background-size: 90%;
+  background-repeat: no-repeat;
 }
 
 .chatbody .leftchat .leftUserimg .img-responsive {
   width: 100%;
-  background-image: url("../../dist/images/botAvatar.png");
-  background-size: 90%;
-  background-repeat: no-repeat;
 }
 
 .chatbody .leftchat .leftInput,

@@ -119,15 +119,15 @@ body{
     border-radius: 50%;
     box-shadow: $shadow;
     padding: 5px;
-
+    background-image: $left-icon;
+    background-size: 90%;
+    background-repeat: no-repeat;
 
   }
   
   .chatbody .leftchat .leftUserimg .img-responsive {
     width: $img-width;
-    background-image: $left-icon;
-    background-size: 90%;
-    background-repeat: no-repeat;
+    
   }
   
   .chatbody .leftchat .leftInput,
